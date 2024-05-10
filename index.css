@@ -248,9 +248,9 @@ img.loading {
 }
 
 .output-img-container>img {
-    width: 40%;
-    filter: drop-shadow(3px 2px 3px var(--medium-dark));
-    align-self: center;
+    width: 100%;
+    border-radius: var(--border-rad-lg);
+    box-shadow: 1px 1px 5px 1px var(--dark);
 }
 
 /* =================
